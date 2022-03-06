@@ -1,10 +1,10 @@
 @font-face {
     font-family: Ailerons;
-    src: url(/Fonts/Ailerons-Typeface.otf);
+    src: url(Fonts/Ailerons-Typeface.otf);
 }
 @font-face {
     font-family: Roboto;
-    src: url(/Fonts/RobotoSlab-Regular.ttf);
+    src: url(Fonts/RobotoSlab-Regular.ttf);
 }
 img
 {
