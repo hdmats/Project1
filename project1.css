@@ -13,6 +13,15 @@ img
     object-fit: cover;
     object-position: 50% 70%;
 }
+.overlay{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
 .hero:before{
   content:"";
   display: block;
@@ -24,11 +33,12 @@ img
   background: linear-gradient(to top,rgba(0,0,0,.8), rgba(0,0,0,.05), transparent);
 }
 .hero .textwrapper{
+    text-align: center;
   position: absolute;
   color: white;
-  bottom: 6rem;
-  left: 22%;
-  justify-content:center;
+  top: 50%;
+  width: 100%;
+  padding: 0 2rem;
   text-shadow: 2px 2px 2px rgba(0,0,0,0.52);
 }
 .hero h1{
