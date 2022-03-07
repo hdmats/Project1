@@ -90,7 +90,7 @@ main{
     display:flex;
     flex-direction:row;
     align-items: right;
-    margin: 3rem 10rem;
+    margin: 3rem 10rem 0 10rem;
     gap: 8em;
 }
 article{
@@ -161,4 +161,10 @@ aside .svg{
     flex: 0 0 auto;
     position: relative;
     margin-top: 1.75em;
+}
+@media (max-width: 1200px)
+{
+    main{
+        flex-wrap: wrap;
+    }
 }
